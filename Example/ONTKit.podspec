@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ONTKit"
-  s.version      = "0.01"
+  s.version      = "0.0.2"
   s.summary      = "ONT wallet kit"
 
   # This description is used to generate tags and improve search results.
