@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/AlleniCode/ONTKit.git", :commit => "7531f8ada0992250f57d606815539d33a71b280c", :tag => s.version }
+  s.source       = { :git => "https://github.com/AlleniCode/ONTKit.git", :tag => s.version }
   s.swift_version = '4.0'
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
