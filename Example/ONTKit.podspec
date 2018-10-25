@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ONTKit"
-  s.version      = "0.0.1"
+  s.version      = "0.01"
   s.summary      = "ONT wallet kit"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ONTWallet/ONTSDK/**/*.{h,m}"
+  s.source_files  = "Example/ONTKit/**/*.{h,m,c}"
   s.exclude_files = "ONTKit/Exclude"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -115,7 +115,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = 'neoutils'
-  s.ios.vendored_frameworks = 'neoutils.framework'
+  s.ios.vendored_frameworks = 'Example/ONTKit/ONTCore/neoutils.framework'
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
